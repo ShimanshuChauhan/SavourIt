@@ -1,6 +1,6 @@
 import BlogImg from "../../assets/Hamburger-and-french-fries-paper-box.webp";
 import Footer from "../../components/Footer";
-import {Nav} from "../../nav";
+import { Nav } from "../../nav";
 import Comment from "./Comment";
 
 const ItemDetailPage = () => {
@@ -66,6 +66,8 @@ const ItemDetailPage = () => {
           className="input input-bordered input-error w-[60%]"
         />
         <button className="ml-2 btn btn-neutral w-24">Comment</button>
+        <Comment />
+        <Comment />
         <Comment />
       </div>
       <Footer />
